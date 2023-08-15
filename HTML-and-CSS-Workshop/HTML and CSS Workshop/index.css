@@ -62,7 +62,7 @@ html {
   .intro-section img {
     width: 250px;
     height: 250px;
-    border: 8px solid #ede9fe;
+    border: 8px solid #0f528c21;
     border-radius: 50%;
     margin-right: 50px;
   }
@@ -329,15 +329,15 @@ html {
 
   @keyframes change-colors {
     0% {
-      color: #7c3aed;
+      color: #0F518C;
     }
   
     50% {
-      color: #f59e0b;
+      color: #ED0049;
     }
   
     100% {
-      color: #7c3aed;
+      color: #0F518C;
     }
   }
 
