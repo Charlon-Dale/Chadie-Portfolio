@@ -173,7 +173,7 @@ html {
   
     text-align: center;
     color: #ffffff;
-    background-image: linear-gradient(to right, #0F518C, #ED0049);
+    background-image: linear-gradient(to top right, #0F518C, #ED0049);
   }
   
   .contact-section h2 {
@@ -198,7 +198,7 @@ html {
   
     font-weight: bold;
     text-decoration: none;
-    color: #ED0049;
+    color: #0F518C;
     background-color: #ffffff;
   }
   
@@ -209,8 +209,11 @@ html {
     position: fixed;
     right: 50px;
     bottom: 50px;
-  
-    background-color: #1f2937;
+    backdrop-filter: blur(5px) saturate(179%);
+    -webkit-backdrop-filter: blur(5px) saturate(179%);
+    background-color: rgba(132, 133, 147, 0.44);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
   }
   
   .social-links a {
@@ -226,12 +229,12 @@ html {
     background-position-y: center;
   }
   
-  .social-links .facebook {
-    background-image: url('https://res.cloudinary.com/arnellebalane/image/upload/v1632525392/html-css-workshop/icon-facebook_xosefo.svg');
+  .social-links .github {
+    background-image: url('icons8-github-32.png');
   }
   
-  .social-links .instagram {
-    background-image: url('https://res.cloudinary.com/arnellebalane/image/upload/v1632525393/html-css-workshop/icon-instagram_jbaduh.svg');
+  .social-links .linkedin {
+    background-image: url('icons8-linked-in-32.png');
   }
   
   .site-footer {
@@ -270,7 +273,7 @@ html {
   .contact-section .email-button:hover,
   .contact-section .email-button:focus {
     color: #ffffff;
-    background-color: #f59e0b;
+    background-color: #ED0049;
   }
 
   .social-links a:hover,
