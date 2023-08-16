@@ -136,7 +136,7 @@ html {
     display: none;
   }
   
-  .educ {
+  .skills {
     padding: 32px 42px;
     margin-bottom: 32px;
     border-radius: 5px;
@@ -144,7 +144,7 @@ html {
     background-color: #f9fafb;
   }
   
-  .educ-title {
+  .skills-title {
     margin: 0;
   
     font-size: 18px;
@@ -152,7 +152,7 @@ html {
     line-height: 28px;
   }
   
-  .educ-dates {
+  .skills-dates {
     margin: 0;
   
     font-size: 14px;
@@ -160,7 +160,7 @@ html {
     color: #4b5563;
   }
   
-  .educ-description {
+  .skills-description {
     margin-bottom: 0;
   }
   
@@ -289,7 +289,7 @@ html {
     margin-bottom: 0;
   }
   
-  .educ:last-child {
+  .skills:last-child {
     margin-bottom: 0;
   }
   
