@@ -80,11 +80,11 @@ html {
   .banner-image {
     height: 1080px;
     max-height: 100%;
-    /* max-width: 100%; */
+    
   
     position: relative;
   
-    background-image: url('1.jpg');
+    background-image: url('assets/chadie-banner.jpg');
     background-size:cover;
     background-attachment: fixed;
     
@@ -218,11 +218,11 @@ html {
   }
   
   .social-links .github {
-    background-image: url('icons8-github-32.png');
+    background-image: url('assets/icons8-github-32.png');
   }
   
   .social-links .linkedin {
-    background-image: url('icons8-linked-in-32.png');
+    background-image: url('assets/icons8-linked-in-32.png');
   }
   
   .site-footer {
