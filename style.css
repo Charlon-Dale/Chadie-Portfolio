@@ -110,11 +110,18 @@ html {
     text-decoration: none;
     color: #ffffff;
   }
+
+  .section, .skills-section {
+    padding: 150px 24px;
+    margin: 0 auto;
+  }
   
   .section {
     max-width: 760px;
-    padding: 150px 24px;
-    margin: 0 auto;
+  }
+
+  .skills-section {
+    max-width: 300px;
   }
   
   .section h2 {
@@ -139,8 +146,8 @@ html {
     background-color: #f9fafb;
   }
   
-  .skills-title {
-    margin: 0;
+  .skills-logo {
+    
   
     font-size: 18px;
     font-weight: normal;
