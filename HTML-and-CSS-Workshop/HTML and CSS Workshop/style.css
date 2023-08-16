@@ -209,7 +209,7 @@ html {
     -webkit-backdrop-filter: blur(5px) saturate(179%);
     background-color: 0f528c21;
     border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.125);
+    border: 1px solid rgba(22, 19, 19, 0.185);
   }
   
   .social-links a {
@@ -248,22 +248,22 @@ html {
 
   .site-logo:hover,
   .site-logo:focus {
-    color: #f59e0b;
+    color: #ED0049;
   }
 
   .site-nav a:hover,
   .site-nav a:focus {
-    color: #f59e0b;
+    color: #ED0049;
   }
 
   .section a:hover,
   .section a:focus {
-    color: #f59e0b;
+    color: #ED0049;
   }
 
   .banner-attribution a:hover,
   .banner-attribution a:focus {
-    color: #f59e0b;
+    color: #ED0049;
   }
 
   .contact-section .email-button:hover,
@@ -274,7 +274,8 @@ html {
 
   .social-links a:hover,
   .social-links a:focus {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(156, 151, 151, 0.74);
+    border-radius: 20px;
   }
 
   .about-section p:first-of-type {
@@ -291,6 +292,8 @@ html {
   
   .social-links a:last-child {
     margin-bottom: 0;
+    border-radius: 20px;
+
   }
 
   .site-logo {
@@ -321,6 +324,8 @@ html {
   .social-links a {
     transition-property: background-color;
     transition-duration: 200ms;
+    border-radius: 20px;
+
   }
 
   @keyframes change-colors {
