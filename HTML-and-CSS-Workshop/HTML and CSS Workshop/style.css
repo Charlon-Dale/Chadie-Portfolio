@@ -86,13 +86,13 @@ html {
   
     position: relative;
   
-    background-image: url('https://res.cloudinary.com/arnellebalane/image/upload/v1632525395/html-css-workshop/banner_tirxkp.jpg');
-    background-size: cover;
+    background-image: url('banner-image-chadie.jpg');
+    background-size:cover;
     background-attachment: fixed;
   }
   
   .banner-attribution {
-    display: inline-block;
+    display:inline-block;
     padding: 8px 16px;
     margin: 0;
   
