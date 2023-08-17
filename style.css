@@ -154,6 +154,7 @@ html {
     flex-direction:column;
     position: relative;
     max-width: 300px;
+    margin-right: 20px;
   }
   
   .skills-logo { 
