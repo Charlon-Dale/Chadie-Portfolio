@@ -66,16 +66,35 @@ html {
   
   .intro-section h1 {
     margin: 0;
-  
-    font-size: 40px;
     line-height: 48px;
     color: #4b5563;
+  }
+
+  .intro-section h3 {
+    margin: 0;
+    color: #4b5563;
+  }
+  
+  .intro-section span {
+    font-size: 60px;
+    margin-bottom: 24px;
   }
   
   .intro-section .highlight-name {
     display: block;
-    color: rgb(15, 81, 140);
-    
+  }
+
+  .intro-section .subtitle-section {
+    margin-top: 50px;
+    text-align: justify;
+
+    color: #4b5563;
+    font-family: 'Bebas Neue', cursive;
+
+  }
+
+  .intro-section .title-section{
+    margin-top: 100px;
   }
   
   .banner-image {
@@ -124,7 +143,7 @@ html {
     font-size: 32px;
     line-height: 42px;
     text-transform: uppercase;
-    
+
     text-align: center;
     color: #4b5563;
   }
