@@ -54,6 +54,7 @@ html {
     margin: 150px auto;
     margin-bottom: 0;
     font-family: 'Bebas Neue', cursive;
+    line-height: normal;
   }
   
   .intro-section img {
@@ -82,6 +83,7 @@ html {
   
   .intro-section .highlight-name {
     display: block;
+    
   }
 
   .intro-section .subtitle-section {
@@ -90,6 +92,7 @@ html {
 
     color: #4b5563;
     font-family: 'Bebas Neue', cursive;
+    
 
   }
 
