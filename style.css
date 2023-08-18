@@ -56,6 +56,11 @@ html {
     font-family: 'Bebas Neue', cursive;
     line-height: normal;
   }
+
+  .intro-section img {
+    width:250px;
+    height:250px;
+  }
   
   .intro-section img {
     width: 250px;
@@ -333,6 +338,10 @@ html {
   
   .about-section p:last-of-type {
     margin-bottom: 0;
+  }
+
+  .about-section h2 {
+    text-align: left;
   }
   
   .social-links a:last-child {
