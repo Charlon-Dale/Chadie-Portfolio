@@ -52,15 +52,11 @@ html {
     max-width: 1000px;
     padding: 0 24px;
     margin: 150px auto;
-    margin-bottom: 0;
+    
     font-family: 'Bebas Neue', cursive;
     line-height: normal;
   }
 
-  .intro-section img {
-    width:250px;
-    height:250px;
-  }
   
   .intro-section img {
     width: 250px;
@@ -107,8 +103,8 @@ html {
   }
   
   .banner-image {
-    height: 320px;
-    width: 320px;
+    height: 820px;
+    width: 520px;
     
     
   
@@ -330,7 +326,15 @@ html {
   }
 
   .about-section {
-    margin-top: 240px;
+    margin-top: 240px ;
+    padding: 240px 0px;
+    display: flex;
+    align-items: center;
+  
+    max-width: 1000px;
+    
+    font-family: 'Bebas Neue', cursive;
+    line-height: normal;
   }
 
 
