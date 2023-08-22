@@ -341,10 +341,20 @@ html {
   .about-container {
     display: flex;
     flex-direction: row;
+    column-gap: 20px;
     
-    max-width: 1000px;
     
     
+    
+  }
+
+  .about-description p{
+    color: #4b5563;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .about-description h2{
+    text-align: left;
   }
   
   .social-links a:last-child {
