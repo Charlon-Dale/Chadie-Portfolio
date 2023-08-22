@@ -84,7 +84,6 @@ html {
   
   .intro-section .highlight-name {
     display: block;
-    
   }
 
   .intro-section .subtitle-section {
@@ -103,13 +102,11 @@ html {
   }
   
   .banner-image {
-    height: 520px;
-    width: 420px;
+    height: 620px;
+    width: 520px;
     
-    
-  
     position: relative;
-  
+    
     background-image: url('assets/chadie-banner.jpg');
     background-size:cover;
     background-attachment:scroll;
@@ -122,19 +119,17 @@ html {
     margin: 0;
   
     position: absolute;
-    left: 16px;
     bottom: 0;
   
-    font-size: 14px;
-    line-height: 16px;
-    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f8f8f8cb;
     background-color: #1f2937;
   }
   
   .banner-attribution a {
     font-weight: bold;
     text-decoration: none;
-    color: #ffffff;
   }
   
   .section {
@@ -155,8 +150,7 @@ html {
   }
   
   .section a {
-    font-weight: bold;
-    color: #ED0049;
+    color: #f8f8f8cb;
   }
 
   .skills-title {
@@ -184,7 +178,7 @@ html {
   }
   
   .skills {
-    padding: 32px 64px 32px 64px;
+    padding: 24px 64px;
     margin-bottom: 20px;
     border-radius: 5px;
     background-color: #4b5563;
@@ -289,27 +283,20 @@ html {
   
   .site-footer p {
     margin: 0;
-  
     color: #4b5563;
   }
 
-  .site-logo:hover,
-  .site-logo:focus {
-    color: #ED0049;
-  }
-
+  
   .site-nav a:hover,
   .site-nav a:focus {
     color: #ED0049;
   }
-
   .section a:hover,
   .section a:focus {
     color: #ED0049;
   }
-
   .banner-attribution a:hover,
-  .banner-attribution a:focus {
+  .banner-attribution a:focus  {
     color: #ED0049;
   }
 
@@ -326,11 +313,7 @@ html {
   }
 
   .about-section {
-    
     padding: 210px 0px;
-    display: flex;
-    align-items: center;
-  
     max-width: 1000px;
     
     font-family: 'Bebas Neue', cursive;
@@ -341,11 +324,8 @@ html {
   .about-container {
     display: flex;
     flex-direction: row;
-    column-gap: 20px;
-    
-    
-    
-    
+    column-gap: 32px;
+    margin: 0 auto;
   }
 
   .about-description p{
@@ -363,22 +343,7 @@ html {
 
   }
 
-  .site-logo {
-    transition-property: color;
-    transition-duration: 200ms;
-  }
-  
-  .site-nav a {
-    transition-property: color;
-    transition-duration: 200ms;
-  }
-  
-  .banner-attribution a {
-    transition-property: color;
-    transition-duration: 200ms;
-  }
-  
-  .section a {
+  .site-nav a , .banner-attribution a, .section a {
     transition-property: color;
     transition-duration: 200ms;
   }
@@ -389,8 +354,6 @@ html {
   }
   
   .social-links a {
-    transition-property: background-color;
-    transition-duration: 200ms;
     border-radius: 20px;
 
   }
