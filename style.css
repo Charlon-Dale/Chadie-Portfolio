@@ -203,9 +203,10 @@ html {
   
   .contact-section {
     max-width: 712px;
-    padding-top: 56px;
-    padding-bottom: 56px;
-    margin-bottom: 150px;
+    margin-top: 150px;
+    margin-bottom: 250px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     border-radius: 5px;
   
     text-align: center;
@@ -222,8 +223,7 @@ html {
   
   .contact-section p {
     max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
   
   .contact-section .email-button {
