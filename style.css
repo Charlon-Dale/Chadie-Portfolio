@@ -103,8 +103,8 @@ html {
   }
   
   .banner-image {
-    height: 820px;
-    width: 520px;
+    height: 520px;
+    width: 420px;
     
     
   
@@ -326,8 +326,8 @@ html {
   }
 
   .about-section {
-    margin-top: 240px ;
-    padding: 240px 0px;
+    
+    padding: 210px 0px;
     display: flex;
     align-items: center;
   
