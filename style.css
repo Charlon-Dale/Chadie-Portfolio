@@ -9,6 +9,7 @@ html {
     font-size: 20px;
     line-height: 28px;
     background-color: rgb(248, 248, 248);
+    color: #4b5563;
     
   }
   
@@ -69,12 +70,11 @@ html {
   .intro-section h1 {
     margin: 0;
     line-height: 48px;
-    color: #4b5563;
+    
   }
 
   .intro-section h3 {
     margin: 0;
-    color: #4b5563;
   }
   
   .intro-section span {
@@ -90,7 +90,6 @@ html {
     margin-top: 50px;
     text-align: justify;
 
-    color: #4b5563;
     font-family: 'Oswald', sans-serif;
     font-size: 22px;
     
@@ -123,7 +122,7 @@ html {
   
     font-size: 16px;
     line-height: 24px;
-    color: #f8f8f8cb;
+    color: #ffffff;
     background-color: #1f2937;
   }
   
@@ -315,6 +314,7 @@ html {
 
   .about-section {
     padding: 210px 0px;
+    margin-top: 200px;
     max-width: 1000px;
     
     font-family: 'Bebas Neue', cursive;
