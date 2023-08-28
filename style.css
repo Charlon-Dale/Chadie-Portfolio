@@ -152,15 +152,40 @@ html {
     color: #f8f8f8cb;
   }
 
+  .services-section {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 150px 24px;
+  }
+
+  .services-container {
+    display: flex;
+    column-gap: 20px;
+  }
+
+  .services-container p {
+    font-size: 18px;
+  }
+
   .services-title h1{
     font-family: 'Bebas Neue', cursive;
-    font-size: 48px;
+    font-size: 28px;
   }
 
   .services-container img {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto ;
   }
+
+  .services-frontend, .services-testing, .services-responsive {
+    
+    width: 800px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 15px;
+  }
+
 
   .skills-title {
     margin-right: 20px;
