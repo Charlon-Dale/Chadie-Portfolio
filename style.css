@@ -235,6 +235,22 @@ html {
     color: #ffffff;
     margin-bottom: 0;
   }
+
+  .projects {
+    padding: 40px 64px;
+    margin-bottom: 55px;
+    border-radius: 5px;
+    background-color: #4b5563;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    max-width: 100%;
+  }
+
+  .projects-description {
+    color: #ffffff;
+    margin-bottom: 0;
+  }
   
   .contact-section {
     max-width: 712px;
