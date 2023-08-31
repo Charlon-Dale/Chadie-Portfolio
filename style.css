@@ -51,8 +51,8 @@ html {
     align-items: center;
   
     max-width: 1000px;
-    padding: 0 24px;
-    margin: 150px auto;
+    padding: 50px 24px 220px;
+    margin: auto;
     
     font-family: 'Bebas Neue', cursive;
     line-height: normal;
@@ -154,8 +154,9 @@ html {
 
   .services-section {
     width: 1000px;
-    margin: 0 auto;
-    padding: 150px 24px;
+    margin: auto;
+    padding: 70px 24px;
+    
   }
 
   .services-container {
@@ -234,6 +235,15 @@ html {
   .skills-description {
     color: #ffffff;
     margin-bottom: 0;
+  }
+
+  .projects-section {
+    max-width: 760px;
+    padding: 0 24px;
+    margin: auto;
+    
+    font-family: 'Bebas Neue', cursive;
+    line-height: normal;
   }
 
   .projects-section h2{
@@ -441,20 +451,23 @@ html {
   }
 
   .about-section {
-    padding: 210px 0px;
-    margin-top: 200px;
+    padding: 0 24px;
+    margin: auto;   
     max-width: 1000px;
     
     font-family: 'Bebas Neue', cursive;
     line-height: normal;
   }
 
-
   .about-container {
     display: flex;
     flex-direction: row;
     column-gap: 32px;
     margin: 0 auto;
+  }
+
+  .about-description {
+    margin:auto;
   }
 
   .about-description p{
