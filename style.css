@@ -236,6 +236,9 @@ html {
     margin-bottom: 0;
   }
 
+  .projects-section h2{
+    text-align: left;
+  }
   .projects {
     padding: 40px 20px;
     margin-bottom: 55px;
@@ -243,7 +246,7 @@ html {
     background-color: #4b5563;
     display: flex;
     align-items: center;
-    flex-direction:column-reverse;
+    flex-direction:column;
     max-width: 100%;
   }
 
@@ -270,8 +273,13 @@ html {
   }
 
   .projects-container img {
-    width: 300px;
+    width: 450px;
     height: 300px;
+  }
+
+  .project-links {
+    display: flex;
+    flex-direction: row;
   }
 
   .project-links a {
@@ -285,10 +293,15 @@ html {
     background-position-x: center;
     background-position-y: center;
   }
-  
-  .project-links .github {
-    background-image: url('assets/github\ 64.png');
+
+  .project-links img {
+    width: 32px;
+    height: 32px;
   }
+  
+  /* .project-links .github {
+    background-image: url('assets/github.png');
+  } */
   
   .project-links .linkedin {
     background-image: url('assets/icons8-linked-in-32.png');
