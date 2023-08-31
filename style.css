@@ -274,6 +274,36 @@ html {
     height: 300px;
   }
 
+  .project-links a {
+    display:block;
+    width: 64px;
+    height: 64px;
+  
+    font-size: 0px;
+  
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+  }
+  
+  .project-links .github {
+    background-image: url('assets/github\ 64.png');
+  }
+  
+  .project-links .linkedin {
+    background-image: url('assets/icons8-linked-in-32.png');
+  }
+
+  .project-links a:last-child {
+    margin-bottom: 0;
+    border-radius: 20px;
+
+  }
+
+  .project-links a {
+    border-radius: 20px;
+  }
+
   
   .contact-section {
     max-width: 712px;
@@ -347,6 +377,17 @@ html {
   .social-links .linkedin {
     background-image: url('assets/icons8-linked-in-32.png');
   }
+
+  .social-links a:last-child {
+    margin-bottom: 0;
+    border-radius: 20px;
+
+  }
+
+  .social-links a {
+    border-radius: 20px;
+
+  }
   
   .site-footer {
     padding: 32px 24px;
@@ -418,6 +459,11 @@ html {
 
   }
 
+  .social-links a {
+    border-radius: 20px;
+
+  }
+
   .site-nav a , .banner-attribution a, .section a {
     transition-property: color;
     transition-duration: 200ms;
@@ -428,11 +474,6 @@ html {
     transition-duration: 200ms, 200ms;
   }
   
-  .social-links a {
-    border-radius: 20px;
-
-  }
-
   @keyframes change-colors {
     0% {
       color: #0F518C;
