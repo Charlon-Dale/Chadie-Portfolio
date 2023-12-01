@@ -1,515 +1,499 @@
 html {
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    margin: 0;
-  
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    line-height: 28px;
-    background-color: rgb(248, 248, 248);
-    color: #4b5563;
-    
-  }
-  
-  .site-header {
-    position: sticky;
-    top: 0;
-    z-index: 1;
-  
-    background-color: rgb(248, 248, 248);
-  }
-  
-  .site-header-contents {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-    max-width: 1000px;
-    height: 86px;
-    padding: 0 24px;
-    margin: 0 auto;
-  }
-  
-  .site-logo {
-    margin: 0;
-  }
-  
-  .site-nav a {
-    margin-left: 42px;
-    text-transform: uppercase; 
-  
-    font-size: 16px;
-    font-weight: 500;
-    text-decoration: none;
-    color: #4b5563;
-  }
-  
-  .intro-section {
-    display: flex;
-    align-items: center;
-  
-    max-width: 1000px;
-    padding: 150px 24px 240px;
-    margin: auto;
-    
-    font-family: 'Bebas Neue', cursive;
-    line-height: normal;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  background-color: rgb(248, 248, 248);
+  color: #4b5563;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+  background-color: rgb(248, 248, 248);
+}
+
+.site-header-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1000px;
+  height: 86px;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+
+.site-logo {
+  margin: 0;
+}
+
+.site-nav a {
+  margin-left: 42px;
+  text-transform: uppercase;
+
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #4b5563;
+}
+
+.intro-section {
+  display: flex;
+  align-items: center;
+
+  max-width: 1000px;
+  padding: 150px 24px 240px;
+  margin: auto;
+
+  font-family: "Bebas Neue", cursive;
+  line-height: normal;
+}
+
+.intro-section img {
+  width: 250px;
+  height: 250px;
+  border: 8px solid #0f528c21;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.intro-section h1 {
+  margin: 0;
+  line-height: 48px;
+}
+
+.intro-section h3 {
+  margin: 0;
+}
+
+.intro-section span {
+  font-size: 60px;
+  margin-bottom: 24px;
+}
+
+.intro-section .highlight-name {
+  display: block;
+}
+
+.intro-section .subtitle-section {
+  margin-top: 50px;
+  text-align: justify;
+
+  font-family: "Oswald", sans-serif;
+  font-size: 22px;
+}
+
+.intro-section .title-section {
+  margin-top: 100px;
+}
+
+.banner-image {
+  height: 620px;
+  width: 520px;
+
+  position: relative;
+
+  background-image: url("assets/chadie-banner.jpg");
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.banner-attribution {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 0;
+
+  position: absolute;
+  bottom: 0;
+
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #1f2937;
+}
+
+.banner-attribution a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.section {
+  max-width: 760px;
+  padding: 150px 24px;
+  margin: 0 auto;
+}
+
+.section h2 {
+  margin-bottom: 42px;
+
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: uppercase;
+
+  text-align: center;
+  color: #4b5563;
+}
+
+.section a {
+  color: #f8f8f8cb;
+}
+
+.skills-section {
+  width: 1000px;
+  margin: auto;
+  padding: 150px 24px;
+}
+
+.skills-container {
+  display: flex;
+  column-gap: 20px;
+}
+
+.skills-container p {
+  font-size: 18px;
+}
+
+.skills-title h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 60px;
+}
+
+.skills-container img {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.skills-frontend,
+.skills-testing,
+.skills-responsive {
+  width: 800px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.tools-title {
+  margin-right: 20px;
+  top: 70px;
+
+  font-size: 60px;
+  line-height: 42px;
+  color: #4b5563;
+  font-family: "Bebas Neue", cursive;
+}
+
+.tools-section {
+  padding: 150px 24px;
+  margin: auto;
+  max-width: 1000px;
+}
+.tools-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tools {
+  padding: 24px 64px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #4b5563;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  max-width: 50px;
+  margin-right: 20px;
+}
+
+.tools-logo {
+  width: 128px;
+  height: 128px;
+}
+
+.tools-description {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.projects-section {
+  max-width: 1000px;
+  padding: 0 24px;
+  margin: auto;
+
+  font-family: "Bebas Neue", cursive;
+  line-height: normal;
+}
+
+.projects-section h1 {
+  text-align: left;
+  font-size: 60px;
+}
+.projects {
+  padding: 40px 20px;
+  margin-bottom: 55px;
+  border-radius: 5px;
+  background-color: #4b5563;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.projects-description {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.projects-description p {
+  color: #ffff;
+  font-family: "Oswald", sans-serif;
+}
+
+.projects-description h2 {
+  text-align: left;
+  color: #ffff;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 32px;
+  margin: 0 auto;
+}
+
+.projects-container img {
+  width: 650px;
+  height: 350px;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-links a {
+  display: block;
+  width: 64px;
+  height: 64px;
+
+  font-size: 0px;
+
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.project-links img {
+  width: 32px;
+  height: 32px;
+}
+
+.project-links a:last-child {
+  margin-bottom: 0;
+  border-radius: 20px;
+}
+
+.project-links a {
+  border-radius: 20px;
+}
+
+.contact-section {
+  max-width: 712px;
+  margin-top: 150px;
+  margin-bottom: 250px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-radius: 5px;
+
+  text-align: center;
+  color: #ffffff;
+  background-image: linear-gradient(to top right, #0f518c, #ed0049);
+}
+
+.contact-section h2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+
+  color: #ffffff;
+}
+
+.contact-section p {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-section .email-button {
+  display: inline-block;
+  padding: 14px 42px;
+  margin-top: 56px;
+  margin-bottom: 0;
+  border-radius: 5px;
+
+  font-weight: bold;
+  text-decoration: none;
+  color: #0f518c;
+  background-color: #ffffff;
+}
+
+.social-links {
+  width: 32px;
+  padding: 8px;
+
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  backdrop-filter: blur(5px) saturate(179%);
+  -webkit-backdrop-filter: blur(5px) saturate(179%);
+  background-color: #f8f8f8cb;
+  border-radius: 12px;
+  border: 1px solid rgba(22, 19, 19, 0.185);
+}
+
+.social-links a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 8px;
+
+  font-size: 0;
+
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.social-links .github {
+  background-image: url("assets/icons8-github-32.png");
+}
+
+.social-links .linkedin {
+  background-image: url("assets/icons8-linked-in-32.png");
+}
+
+.social-links a:last-child {
+  margin-bottom: 0;
+  border-radius: 20px;
+}
+
+.social-links a {
+  border-radius: 20px;
+}
+
+.site-footer {
+  padding: 32px 24px;
+
+  text-align: center;
+  background-color: rgb(233, 233, 233);
+}
+
+.site-footer p {
+  margin: 0;
+  color: #4b5563;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #ed0049;
+}
+.section a:hover,
+.section a:focus {
+  color: #ed0049;
+}
+.banner-attribution a:hover,
+.banner-attribution a:focus {
+  color: #ed0049;
+}
+
+.contact-section .email-button:hover,
+.contact-section .email-button:focus {
+  color: #ffffff;
+  background-color: #ed0049;
+}
+
+.social-links a:hover,
+.social-links a:focus {
+  background-color: rgba(156, 151, 151, 0.74);
+  border-radius: 20px;
+}
+
+.about-section {
+  padding: 150px 24px;
+  margin: auto;
+  max-width: 1000px;
+
+  font-family: "Bebas Neue", cursive;
+  line-height: normal;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 32px;
+  margin: 0 auto;
+}
+
+.about-description {
+  margin: auto;
+}
+
+.about-description p {
+  color: #4b5563;
+  font-family: "Oswald", sans-serif;
+}
+
+.about-description h1 {
+  text-align: left;
+  font-size: 60px;
+}
+
+.social-links a:last-child {
+  margin-bottom: 0;
+  border-radius: 20px;
+}
+
+.social-links a {
+  border-radius: 20px;
+}
+
+.site-nav a,
+.banner-attribution a,
+.section a {
+  transition-property: color;
+  transition-duration: 200ms;
+}
+
+.contact-section .email-button {
+  transition-property: background-color, color;
+  transition-duration: 200ms, 200ms;
+}
+
+@keyframes change-colors {
+  0% {
+    color: #0f518c;
   }
 
-  
-  .intro-section img {
-    width: 250px;
-    height: 250px;
-    border: 8px solid #0f528c21;
-    border-radius: 50%;
-    margin-right: 50px;
-  }
-  
-  .intro-section h1 {
-    margin: 0;
-    line-height: 48px;
-    
+  50% {
+    color: #ed0049;
   }
 
-  .intro-section h3 {
-    margin: 0;
+  100% {
+    color: #0f518c;
   }
-  
-  .intro-section span {
-    font-size: 60px;
-    margin-bottom: 24px;
-  }
-  
-  .intro-section .highlight-name {
-    display: block;
-  }
+}
 
-  .intro-section .subtitle-section {
-    margin-top: 50px;
-    text-align: justify;
-
-    font-family: 'Oswald', sans-serif;
-    font-size: 22px;
-    
-
-  }
-
-  .intro-section .title-section{
-    margin-top: 100px;
-  }
-  
-  .banner-image {
-    height: 620px;
-    width: 520px;
-    
-    position: relative;
-    
-    background-image: url('assets/chadie-banner.jpg');
-    background-size:cover;
-    background-attachment:scroll;
-    
-  }
-  
-  .banner-attribution {
-    display:inline-block;
-    padding: 8px 16px;
-    margin: 0;
-  
-    position: absolute;
-    bottom: 0;
-  
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
-    background-color: #1f2937;
-  }
-  
-  .banner-attribution a {
-    font-weight: bold;
-    text-decoration: none;
-  }
-  
-  .section {
-    max-width: 760px;
-    padding: 150px 24px;
-    margin: 0 auto;
-  }
-
-  .section h2 {
-    margin-bottom: 42px;
-  
-    font-size: 32px;
-    line-height: 42px;
-    text-transform: uppercase;
-
-    text-align: center;
-    color: #4b5563;
-  }
-  
-  .section a {
-    color: #f8f8f8cb;
-  }
-
-  .services-section {
-    width: 1000px;
-    margin: auto;
-    padding: 150px 24px;
-    
-  }
-
-  .services-container {
-    display: flex;
-    column-gap: 20px;
-  }
-
-  .services-container p {
-    font-size: 18px;
-  }
-
-  .services-title h1{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 60px;
-  }
-
-  .services-container img {
-    width: 300px;
-    height: 300px;
-    margin: 0 auto ;
-  }
-
-  .services-frontend, .services-testing, .services-responsive {
-    
-    width: 800px;
-    border: 1px solid black;
-    border-radius: 20px;
-    padding: 15px;
-  }
-
-
-  .skills-title {
-    margin-right: 20px;
-    top: 70px;
-
-    font-size: 60px;
-    line-height: 42px;
-    color: #4b5563;
-    font-family: 'Bebas Neue', cursive;
-  }
-
-  .skills-section {
-    padding: 150px 24px;
-    margin: auto;
-    max-width: 1000px;
-
-
-  }
-  .skills-container {
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    flex-wrap: wrap;
-    
-  }
-  
-  .skills {
-    padding: 24px 64px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    background-color: #4b5563;
-    display: flex;
-    align-items: center;
-    flex-direction:column;
-    position: relative;
-    max-width: 50px;
-    margin-right: 20px;
-  }
-  
-  .skills-logo { 
-    width: 128px;
-    height: 128px;
-    
-  }
-  
-  .skills-description {
-    color: #ffffff;
-    margin-bottom: 0;
-  }
-
-  .projects-section {
-    max-width: 1000px;
-    padding: 0 24px;
-    margin: auto;
-    
-    font-family: 'Bebas Neue', cursive;
-    line-height: normal;
-  }
-
-  .projects-section h1{
-    text-align: left;
-    font-size: 60px;
-  }
-  .projects {
-    padding: 40px 20px;
-    margin-bottom: 55px;
-    border-radius: 5px;
-    background-color: #4b5563;
-    display: flex;
-    align-items: center;
-    flex-direction:column;
-    max-width: 100%;
-  }
-
-  .projects-description {
-    color: #ffffff;
-    margin-bottom: 0;
-  }
-
-  .projects-description p{
-    color: #ffff;
-    font-family: 'Oswald', sans-serif;
-  }
-
-  .projects-description h2{
-    text-align: left;
-    color: #ffff;
-  }
-
-  .projects-container {
-    display: flex;
-    flex-direction: row;
-    column-gap: 32px;
-    margin: 0 auto;
-  }
-
-  .projects-container img {
-    width: 650px;
-    height: 350px;
-  }
-
-  .project-links {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .project-links a {
-    display:block;
-    width: 64px;
-    height: 64px;
-  
-    font-size: 0px;
-  
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-  }
-
-  .project-links img {
-    width: 32px;
-    height: 32px;
-  }
-  
-  .project-links a:last-child {
-    margin-bottom: 0;
-    border-radius: 20px;
-
-  }
-
-  .project-links a {
-    border-radius: 20px;
-  }
-
-  
-  .contact-section {
-    max-width: 712px;
-    margin-top: 150px;
-    margin-bottom: 250px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    border-radius: 5px;
-  
-    text-align: center;
-    color: #ffffff;
-    background-image: linear-gradient(to top right, #0F518C, #ED0049);
-  }
-  
-  .contact-section h2 {
-    margin-top: 0;
-    margin-bottom: 24px;
-  
-    color: #ffffff;
-  }
-  
-  .contact-section p {
-    max-width: 500px;
-    margin: 0 auto;
-  }
-  
-  .contact-section .email-button {
-    display: inline-block;
-    padding: 14px 42px;
-    margin-top: 56px;
-    margin-bottom: 0;
-    border-radius: 5px;
-  
-    font-weight: bold;
-    text-decoration: none;
-    color: #0F518C;
-    background-color: #ffffff;
-  }
-  
-  .social-links {
-    width: 32px;
-    padding: 8px;
-  
-    position: fixed;
-    right: 50px;
-    bottom: 50px;
-    backdrop-filter: blur(5px) saturate(179%);
-    -webkit-backdrop-filter: blur(5px) saturate(179%);
-    background-color: #f8f8f8cb;
-    border-radius: 12px;
-    border: 1px solid rgba(22, 19, 19, 0.185);
-  }
-  
-  .social-links a {
-    display: block;
-    width: 32px;
-    height: 32px;
-    margin-bottom: 8px;
-  
-    font-size: 0;
-  
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-  }
-  
-  .social-links .github {
-    background-image: url('assets/icons8-github-32.png');
-  }
-  
-  .social-links .linkedin {
-    background-image: url('assets/icons8-linked-in-32.png');
-  }
-
-  .social-links a:last-child {
-    margin-bottom: 0;
-    border-radius: 20px;
-
-  }
-
-  .social-links a {
-    border-radius: 20px;
-
-  }
-  
-  .site-footer {
-    padding: 32px 24px;
-  
-    text-align: center;
-    background-color: rgb(233, 233, 233);;
-  }
-  
-  .site-footer p {
-    margin: 0;
-    color: #4b5563;
-  }
-
-  
-  .site-nav a:hover,
-  .site-nav a:focus {
-    color: #ED0049;
-  }
-  .section a:hover,
-  .section a:focus {
-    color: #ED0049;
-  }
-  .banner-attribution a:hover,
-  .banner-attribution a:focus  {
-    color: #ED0049;
-  }
-
-  .contact-section .email-button:hover,
-  .contact-section .email-button:focus {
-    color: #ffffff;
-    background-color: #ED0049;
-  }
-
-  .social-links a:hover,
-  .social-links a:focus {
-    background-color: rgba(156, 151, 151, 0.74);
-    border-radius: 20px;
-  }
-
-  .about-section {
-    padding: 150px 24px;
-    margin: auto;   
-    max-width: 1000px;
-    
-    font-family: 'Bebas Neue', cursive;
-    line-height: normal;
-  }
-
-  .about-container {
-    display: flex;
-    flex-direction: row;
-    column-gap: 32px;
-    margin: 0 auto;
-  }
-
-  .about-description {
-    margin:auto;
-  }
-
-  .about-description p{
-    color: #4b5563;
-    font-family: 'Oswald', sans-serif;
-  }
-
-  .about-description h1{
-    text-align: left;
-    font-size: 60px;
-  }
-  
-  .social-links a:last-child {
-    margin-bottom: 0;
-    border-radius: 20px;
-
-  }
-
-  .social-links a {
-    border-radius: 20px;
-
-  }
-
-  .site-nav a, .banner-attribution a, .section a {
-    transition-property: color;
-    transition-duration: 200ms;
-  }
-  
-  .contact-section .email-button {
-    transition-property: background-color, color;
-    transition-duration: 200ms, 200ms;
-  }
-  
-  @keyframes change-colors {
-    0% {
-      color: #0F518C;
-    }
-  
-    50% {
-      color: #ED0049;
-    }
-  
-    100% {
-      color: #0F518C;
-    }
-  }
-
-  .intro-section .highlight-name {
-    animation-name: change-colors;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-  }
+.intro-section .highlight-name {
+  animation-name: change-colors;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
