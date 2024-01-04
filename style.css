@@ -172,9 +172,9 @@ body {
   margin: 0 auto;
 }
 
-.skills-frontend,
-.skills-testing,
-.skills-responsive {
+.skills-functional,
+.skills-manual,
+.skills-non-functional {
   width: 800px;
   border: 1px solid black;
   border-radius: 20px;
