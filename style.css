@@ -576,6 +576,13 @@ body {
   transition-duration: 200ms, 200ms;
 }
 
+@media only screen and (max-width: 425px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
 @keyframes change-colors {
   0% {
     color: #0f518c;
